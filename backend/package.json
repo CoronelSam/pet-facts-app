@@ -1,0 +1,20 @@
+{
+  "name": "app-sugerencias",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "A suggestion app that provides activity recommendations based on type.",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
